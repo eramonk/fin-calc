@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Initial deposit:</strong>
+  <%= @calc.initial_deposit %>
+</p>
+
+<p>
+  <strong>Number of years:</strong>
+  <%= @calc.number_of_years %>
+</p>
+
+<p>
+  <strong>Profitability per year:</strong>
+  <%= @calc.profitability_per_year %>
+</p>
+
+<p>
+  <strong>Monthly report:</strong>
+  <%= @calc.monthly_report %>
+</p>
+
+<p>
+  <strong>Risk level:</strong>
+  <%= @calc.risk_level %>
+</p>
+
+<%= link_to 'Edit', edit_calc_path(@calc) %> |
+<%= link_to 'Back', calcs_path %>

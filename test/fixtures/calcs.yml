@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  initial_deposit: 1
+  number_of_years: 1
+  profitability_per_year: 1
+  monthly_report: 1
+  risk_level: 1
+
+two:
+  initial_deposit: 1
+  number_of_years: 1
+  profitability_per_year: 1
+  monthly_report: 1
+  risk_level: 1
